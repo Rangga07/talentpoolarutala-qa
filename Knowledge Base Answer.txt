@@ -1,0 +1,45 @@
+1. Apa yang anda ketahui tentang Rest API?
+Jawaban:
+Rest API suatu Interface yang digunakan oleh dua sistem untuk bertukar informasi melalui internet.
+Rest API berkomunikasi satu sama lain melalui HTTP, data yang ada di dalam REST API berbentuk JSON.
+Cara kerja Rest API dengan melakukan permintaan melalui HTTP untuk melakukan operasi CRUD, ketika
+client mengirim permintaan HTTP ke server, server akan memproses permintaan tersebut dan mengirimkan
+kembali respon ke client.
+Rest API menggunakan metorde HTTP seperti GET, POST, PUT, dan DELETE
+
+
+2. Apa yang anda ketahui tentang Server side and Client side processing?
+Jawaban:
+Server-side processing -> pemrosesan logika & data terjadi di sisi server, server bertanggung jawab untuk memproses
+			  permintaan client, dan menghasilkan respont yang di kembalikan ke client
+Client-side processing -> pemrosesan logika & data terjadi di sisi client, pemrosesan dilakukan di client seperti browser
+
+
+3. Apa yang anda ketahui tentang Monolith dan Microservices, berikan contohnya?
+Jawaban:
+Monolith -> sistem yang dikembangkan dan terbentuk dalam satu kesatuan kode yang tidak dipisahkan. Jika program ingin
+	    melakukan perubahan pada sistem monolith, program harus mengubah satu kesatuan code secara menyeluruh
+contoh : suatu web marketplace yang memiliki satu kode yang mencakup tampilan halaman web, pemrosesan pesanan, management user
+Microservice -> kebalikan dari monolith, microservice terbagi menjadi unit yang lebih spesifik, setiap unitnya 
+		terpisah dan mempunyai sistem beserta database sendiri
+contoh : suatu web e-commerce yang setiap fungsi nya berbeda, terbagi menjadi layanan pemrosesan pesanan, layanan management inventaris
+
+
+4. Apa yang anda ketahui tentang Automation testing serta sebutkan contohnya?
+Jawaban :
+Automation test adalah suatu pengujian aplikasi menggunakan software dan script otomatis untuk mengotomasi proses pengujian perangkat lunak
+yang sebelumya dilakukan secara manual. Menggunakan Automation test dapat lebih efisien, akurasi, serta menghemat waktu dan sumberdaya
+Contoh :
+1. Functional automation test
+   Selenium : selenium adalah software untuk mengotomatisasi pengujian fungsional
+   Katalon  : software untuk mengotomatisasi pengujian functional5
+2. API automation test
+   Postman : software untuk mengotomatisasi pengujian API
+3. Performance automation test
+   JMeter : software untuk mengotomatisasi pengujian high performance pada aplikasi web dan server
+
+
+5. Dengan menggunakan tools automation testing tersebut, biasanya menggunakan bahasa/tools apa?
+Jawaban :
+Katalon Studio(basic)
+
